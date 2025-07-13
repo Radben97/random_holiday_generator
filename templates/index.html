@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Holidays!</title>
+    <link
+      rel="stylesheet"
+      href="{{url_for('static',filename='styles/styles.css')}}"
+    />
+  </head>
+  <body>
+    <h1>Get Holidays!</h1>
+    <form action="/holiday">
+      <input
+        type="text"
+        name="country"
+        id="country"
+        placeholder="Enter a country"
+      />
+      <button type="submit">Enter</button>
+    </form>
+  </body>
+</html>
